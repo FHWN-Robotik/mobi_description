@@ -10,3 +10,20 @@ colcon build --packages-select mobi_description
 source install/setup.bash
 ros2 launch mobi_description gazebo.launch.py
 ```
+
+Folgende Packages werden benötigt:\
+**joint_state_publisher_GUI**
+```shell
+sudo apt-get update
+sudo apt install ros-humble-joint-state-publisher-gui
+```
+**xacro**
+```shell
+sudo apt-get update
+sudo apt install ros-humble-xacro
+```
+**teleop_twist_keyboard**
+```shell
+sudo apt-get update
+sudo apt install ros-humble-teleop-twist-keyboard
+```
