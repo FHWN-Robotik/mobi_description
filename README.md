@@ -27,3 +27,7 @@ sudo apt install ros-humble-xacro
 sudo apt-get update
 sudo apt install ros-humble-teleop-twist-keyboard
 ```
+**Gazebo Classic**
+```shell
+sudo apt install ros-humble-gazebo-ros-pkgs
+```
